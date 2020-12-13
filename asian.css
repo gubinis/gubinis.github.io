@@ -1,0 +1,210 @@
+*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				
+}
+
+body{
+				background: black;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(255, 255, 0, 1);
+    position: relative;
+    z-index: 2;
+        
+}
+
+.con-log{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 260px;
+}
+
+.log-text h1{
+    color: rgba(255,255,255,1);
+    text-shadow: 0 0 10px rgba(255, 255, 0, 0.7);
+    font-size: 80px;
+    border: 3px solid yellow;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    position: relative;
+    z-index: 1;
+    }
+
+.log-text span{
+    color: rgba(255,255,0,1);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    border :3px solid white;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 1);
+    position: absolute;
+    top: 15px;
+    left: 260px;
+    z-index: 2;
+   }
+
+/* ВИДЕО */
+
+
+.row{
+    width: 100%;
+    height: auto;
+    background: darkgrey;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    position:relative;
+    z-index: 1;
+     flex-wrap: wrap;
+   }
+
+.box{
+    width: 300px;
+    height: 270px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+
+.vid{
+    width: 300px;
+    height: 200px;
+    background: grey;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.inf{
+    width: 300px;
+    height: 70px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0 0 10px rgba(255,255,0,1);
+    text-align: center;
+}
+
+.inf p span{
+    color: grey;
+    font-size: 15px;
+}
+
+iframe{
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+/* Переход */
+
+.nom{
+				width:100%;
+				height: auto;
+				background: black;
+				display:flex;
+				justify-content: center;
+}
+.nom-1{
+    width:200px;
+				height: auto;
+				display:flex;
+				justify-content: space-around;
+				align-items: center;
+				margin-top: 15px;
+				margin-bottom: 25px;
+}
+
+
+
+
+button{
+				width: 40px;
+				height: 40px;
+				border: 1px solid yellow;
+				background:none;
+				color:white;
+				font-size:30px;
+}
+
+button:hover{
+				background:yellow;
+				color: black;
+}
+
+button:focus{
+				background:yellow;
+				color: black;
+}
+
+.footer{
+				width:100%;
+				height:100px;
+				background:black;
+				box-shadow: 0 0 10px rgba(255,255,0,1);
+display: flex;
+    justify-content: center;
+    align-items: center;
+				position:relative;
+				z-index: 3;
+				
+}
+
+.footer a{
+    text-decoration-line: none;
+    font-size: 20px;
+    color:yellow;
+}
+
+.footer a:hover{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
